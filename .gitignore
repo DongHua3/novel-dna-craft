@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Local novel corpus & drafts (protect user's private stories/corpus)
+corpus/raw/*
+!corpus/raw/.gitkeep
+corpus/_meta/*
+!corpus/_meta/.gitkeep
+covers/*.png
+covers/*.jpg
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
