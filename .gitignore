@@ -4,13 +4,19 @@ __pycache__/
 *$py.class
 *.pyc
 
-# Local novel corpus & drafts (protect user's private stories/corpus)
+# Local novel corpus & drafts (保护用户的私有小说草稿与语料)
+语料库/原始章节/*
+!语料库/原始章节/.gitkeep
+语料库/元数据/*
+!语料库/元数据/.gitkeep
+封面/*.png
+封面/*.jpg
+covers/*.png
+covers/*.jpg
 corpus/raw/*
 !corpus/raw/.gitkeep
 corpus/_meta/*
 !corpus/_meta/.gitkeep
-covers/*.png
-covers/*.jpg
 
 # OS / Editor
 .DS_Store
